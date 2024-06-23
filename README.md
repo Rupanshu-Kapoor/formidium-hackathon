@@ -62,3 +62,6 @@ AWS Dashboard [Preview](https://ap-south-1.console.aws.amazon.com/cloudwatch/hom
 - Use the sidebar to select the metric for monitoring.
 - The app will automatically stop or upscale instances based on detected anomalies.
 - Notifications will be sent via AWS SNS.
+
+2. Run test cases
+   `pytest -v tests\test_my_code.py`
