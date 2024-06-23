@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.11
+    commands:
+      - pip install pytest boto3
+      - pip install -r requirements.txt
+  build:
+    commands:
+      - pytest --junitxml=report.xml  # Run pytest and generate a report
+
+artifacts:
+  files:
+    - report.xml  # Include the test report in the artifacts
