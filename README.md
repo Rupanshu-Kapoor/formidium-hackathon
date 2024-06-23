@@ -3,6 +3,8 @@
 ## Overview
 The AnomaAI App is designed to detect anomalies in AWS infrastructure by monitoring metrics like CPU utilization, memory utilization, disk I/O, and network I/O. It uses a combination of AWS services and Python libraries for anomaly detection and automated instance management. The app integrates with Streamlit for real-time data visualization and includes automation for instance handling based on detected anomalies.
 
+AWS Dashboard [Preview](https://ap-south-1.console.aws.amazon.com/cloudwatch/home?region=ap-south-1#dashboards/dashboard/metalix?start=PT8H&end=null)
+
 ![image](https://github.com/Rupanshu-Kapoor/formidium-hackathon/assets/121911821/36d9e911-9d44-43c8-b4e1-bb22c36c334e)
 
 ## Features
